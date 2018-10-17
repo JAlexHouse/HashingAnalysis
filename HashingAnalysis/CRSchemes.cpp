@@ -17,7 +17,7 @@ SepChain::~SepChain() {
 
 
 OpenAdd::OpenAdd(int size) {
-    int* hashmap[size];
+    
 }
 int OpenAdd::insertKey(int keyValue, int address) {
     int numCol=0;
