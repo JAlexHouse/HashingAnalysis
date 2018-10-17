@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E96C3B9B2168FC85005D2B33 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E96C3B9A2168FC85005D2B33 /* main.cpp */; };
+		E96C3BA42168FD3D005D2B33 /* CRSchemes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E96C3BA22168FD3D005D2B33 /* CRSchemes.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E96C3B972168FC85005D2B33 /* HashingAnalysis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashingAnalysis; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96C3B9A2168FC85005D2B33 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E96C3BA22168FD3D005D2B33 /* CRSchemes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CRSchemes.cpp; sourceTree = "<group>"; };
+		E96C3BA32168FD3D005D2B33 /* CRSchemes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CRSchemes.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E96C3B9A2168FC85005D2B33 /* main.cpp */,
+				E96C3BA32168FD3D005D2B33 /* CRSchemes.hpp */,
+				E96C3BA22168FD3D005D2B33 /* CRSchemes.cpp */,
 			);
 			path = HashingAnalysis;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E96C3B9B2168FC85005D2B33 /* main.cpp in Sources */,
+				E96C3BA42168FD3D005D2B33 /* CRSchemes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
